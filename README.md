@@ -14,7 +14,7 @@ By incorporating joint SSL and SL training steps, BL-JUST refines the learned fe
 
 ## Example Result
 
-
+Three experiments were conducted to evaluate the model's performance in different learning rates, numbers of CNN and RNN layers, and low-resource datasets. The first example generated and compared WERs under different learning rate settings of BL-JUST using CNN-LSTM acoustic models on Librispeech. We used 3 CNN layers and 5 LSTM layers and kept them constant while changing the pre-training (α) and fine-tuning (β). The experiment result showed that when α=$5*10^(-3)$ and 
 
 ## Demonstration
 
