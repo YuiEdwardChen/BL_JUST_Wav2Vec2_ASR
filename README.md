@@ -18,20 +18,10 @@ Three experiments were conducted to evaluate the model's performance in differen
 
 ## Demonstration
 
-There are some demonstrations that we can make to explain the experimental results. First, pre-training rate (α) and fine-tuning rate (β) could affect the stability of the deep learning model. Learning rates that are too large for the architecture will reduce the stability of the model; for example, when $\alpha = 10^{-2}$ and $\beta = 10^{-2}$, the WER is too high. As we altered the configurations into $\alpha = 10^{-4}$ and $\beta = 10^{-3}$, the WER was reduced to 11.2%, highlighting the benefits of cautious tuning in the self-supervised phase. The best configurations, $\alpha = 10^{-3}$ and $\beta = 10^{-4}$, yields the minimal WER, and we corporate them into our next experiment. The second experiment tested BL-JUST models' performances in different CNN and LSTM layers, which, in other word, displayed the relationship between the WERs and the numbers of parameters. The increase in the numbers of CNN and LSTM layers lead to the uplift in the numbers of parameters, which expands the available speech data in a given model, thus ascending the accuracy of the training process. As for the third experiment, Wav2Vec2 model is capable to effectively conduct self-supervised learning due to its own sturctural advantages, which transforms the feature encoders into quantized and context representations. For Wav2Vec2-JUST method, the Transformer function in the latent speech recognition part showcases higher accuracy than standardized Pre-Training and Fine-Tuning method (PT+FT). Thus, among all the three low-resource language datasets, test WERs are higher for Wav2Vec2 (FT) than Wav2Vec2-JUST.
+I will complete it. 
 
 ## Installation
 
 ## Citation
 
-[1] Jesin James, Deepa P Gopinath, et al. Advocating character error rate for multilingual asr evaluation. arXiv preprint arXiv:2410.07400, 2024.
-[2] Geoffrey Hinton, Li Deng, Dong Yu, George E Dahl, Abdel-rahman Mohamed, Navdeep Jaitly, Andrew Senior, Vincent Vanhoucke, Patrick Nguyen, Tara N Sainath, and Brian Kingsbury. Deep neural networks for acoustic modeling in speech recognition: The shared views of four research groups. IEEE Signal processing magazine, 29(6):82–97, 2012.
-[3] Alexei Baevski, Yuhao Zhou, Abdelrahman Mohamed, and Michael Auli. wav2vec 2.0: A framework for self-supervised learning of speech representations. Advances in neural information processing systems, 33:12449–12460, 2020.
-[4] Ioannis Tsiamas, Gerard I Gállego, José AR Fonollosa, and Marta R Costa-jussà. Pushing the limits of zero-shot end-to-end speech translation. arXiv preprint arXiv:2402.10422, 2024.
-[5] Uchenna Nzenwata and Daniel Ogbuigwe. Automatic speech recognition for the ika language. arXiv preprint arXiv:2410.00940, 2024.
-[6] Samuele Cornell, Jordan Darefsky, Zhiyao Duan, and Shinji Watanabe. Generating data with text-to-speech and large-language models for conversational speech recognition. arXiv preprint arXiv:2408.09215, 2024.
-[7] AFM Saif, Xiaodong Cui, Han Shen, Songtao Lu, Brian Kingsbury, and Tianyi Chen. Joint unsupervised and supervised training for automatic speech recognition via bilevel optimization. In ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pages 10931–10935. IEEE, 2024.
-[8] Sheng Shi, Xuyang Cao, Jun Zhao, and Guoxin Wang. Joyhallo: Digital human model for mandarin. arXiv preprint arXiv:2409.13268, 2024.
-[9] Yacouba Kaloga, Shakeel A Sheikh, and Ina Kodrasi. Multiview canonical correlation analysis for automatic pathological speech detection. arXiv preprint arXiv:2409.17276, 2024.
-[10] Rishabh Jain, Andrei Barcovschi, Mariam Yahayah Yiwere, Dan Bigioi, Peter Corcoran, and Horia Cucu. A wav2vec2-based experimental study on self-supervised learning methods to improve child speech recognition. IEEE Access, 11:46938–46948, 2023.
-[11] Yao-Fei Cheng, Hayato Futami, Yosuke Kashiwagi, Emiru Tsunoo, Wen Shen Teo, Siddhant Arora, and Shinji Watanabe. Task arithmetic for language expansion in speech translation. arXiv preprint arXiv:2409.11274, 2024.
+We will write this after the arxiv submission.
