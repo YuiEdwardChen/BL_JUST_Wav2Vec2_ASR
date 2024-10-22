@@ -18,7 +18,7 @@ Three experiments were conducted to evaluate the model's performance in differen
 
 ## Demonstration
 
-
+There are some demonstrations that we can make to explain the experimental results. First, pre-training rate (α) and fine-tuning rate (β) could affect the stability of the deep learning model. Learning rates that are too large for the architecture will reduce the stability of the model; for example, when $\alpha = 10^{-2}$ and $\beta = 10^{-2}$, the WER is too high. As we altered the configurations into $\alpha = 10^{-4}$ and $\beta = 10^{-3}$, the WER was reduced to 11.2%, highlighting the benefits of cautious tuning in the self-supervised phase. The best configurations, $\alpha = 10^{-3}$ and $\beta = 10^{-4}$, yields the minimal WER, and we corporate them into our next experiment. The second experiment tested BL-JUST models' performances in different CNN and LSTM layers, which, in other word, displayed the relationship between the WERs and the numbers of parameters. The increase in the numbers of CNN and LSTM layers lead to the uplift in the numbers of parameters, which expands the available speech data in a given model, thus ascending the accuracy of the training process. As for the third experiment, Wav2Vec2 model is capable to effectively conduct self-supervised learning due to its own sturctural advantages, which transforms the feature encoders into quantized and context representations. For Wav2Vec2-JUST method, the Transformer function in the latent speech recognition part showcases higher accuracy than standardized Pre-Training and Fine-Tuning method (PT+FT). Thus, among all the three low-resource language datasets, test WERs are higher for Wav2Vec2 (FT) than Wav2Vec2-JUST.
 
 ## Installation
 
