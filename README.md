@@ -1,7 +1,7 @@
 ## Introduction
 
 <p align="center">
-  <img src="https://github.com/YuiEdwardChen/Enhancing-ASR-for-Diverse-Languages-through-Joint-Pre-training-and-Fine-tuning-with-Wav2Vec2-Models/blob/main/BL-JUST.2.png" width="350" title="hover text">
+  <img src="https://github.com/YuiEdwardChen/Enhancing-ASR-for-Diverse-Languages-through-Joint-Pre-training-and-Fine-tuning-with-Wav2Vec2-Models/blob/main/BL-JUST.2.png" width="450" title="hover text">
 
 </p>
 
