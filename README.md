@@ -5,8 +5,12 @@
 
 </p>
 
-<h3>For BL-JUST</h3>
-
+<h3>For BL-JUST:</h3>
+<ul>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+</ul>
 
 <p align="center">
   <img src="https://github.com/YuiEdwardChen/Enhancing-ASR-for-Diverse-Languages-through-Joint-Pre-training-and-Fine-tuning-with-Wav2Vec2-Models/blob/main/Wav2vec2.3.png" width="450" title="hover text">
