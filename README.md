@@ -5,7 +5,8 @@
 
 </p>
 
-<strong>For BL-JUST</strong>
+<h3>For BL-JUST</h3>
+
 
 <p align="center">
   <img src="https://github.com/YuiEdwardChen/Enhancing-ASR-for-Diverse-Languages-through-Joint-Pre-training-and-Fine-tuning-with-Wav2Vec2-Models/blob/main/Wav2vec2.3.png" width="450" title="hover text">
