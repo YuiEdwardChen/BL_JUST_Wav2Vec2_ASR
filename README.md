@@ -40,7 +40,11 @@ As a Self-supervised learning (SSL) technique, the Wav2Vec2 model capture rich a
 
 ## Demonstration
 
-![til]((https://github.com/YuiEdwardChen/Enhancing-ASR-for-Diverse-Languages-through-Joint-Pre-training-and-Fine-tuning-with-Wav2Vec2-Models/blob/main/dutch%20gif.gif))
+
+<p align="center">
+  <img src="https://github.com/YuiEdwardChen/Enhancing-ASR-for-Diverse-Languages-through-Joint-Pre-training-and-Fine-tuning-with-Wav2Vec2-Models/blob/main/dutch%20gif.gif" width="450" title="hover text">
+
+</p>
 
 ## Installation
 
